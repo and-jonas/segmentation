@@ -271,4 +271,3 @@ dd = centroids[0:, 0]
 for c in range(0, nb_components):
     cnt = cv2.circle(cnt, tuple(np.uint(centroids[c])), 5, (255, 0, 0), -1)
 
-la = []
